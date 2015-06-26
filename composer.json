@@ -1,0 +1,30 @@
+{
+  "name": "divisions/nette-spot2-extension",
+  "type": "library",
+  "description": "Spot2 extension for Nette framework",
+  "homepage": "https://github.com/divisions-etch/nette-spot2-extension",
+  "keywords": [
+    "Spot2",
+    "nette",
+    "extension",
+    "orm",
+    "database"
+  ],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Vladimír Fiala",
+      "email": "vladimir.fiala@divisions.cz"
+    }
+  ],
+  "require": {
+    "php": ">= 5.4.0",
+    "nette/nette": ">= 2.3.0",
+    "vlucas/spot2": "v2.1.5"
+  },
+  "autoload": {
+    "classmap": [
+      "src/"
+    ]
+  }
+}
